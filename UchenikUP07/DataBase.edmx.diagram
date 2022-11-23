@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9239e66fb8324235aedc8e0cd54d2ca2" Name="Diagram1">
+        <EntityTypeShape EntityType="ip123Model.Account" Width="1.5" PointX="8" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip123Model.AccountType" Width="1.5" PointX="5.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip123Model.Class" Width="1.5" PointX="3.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip123Model.Evaluations" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip123Model.Parents" Width="1.5" PointX="1.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip123Model.Schedule" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip123Model.School_Subject" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip123Model.Students" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip123Model.Teachers" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="ip123Model.FK_Account_AccountType" ManuallyRouted="false" />
+        <AssociationConnector Association="ip123Model.FK_Class_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="ip123Model.FK_Schedule_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="ip123Model.FK_Evaluations_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="ip123Model.FK_Evaluations_Teachers1" ManuallyRouted="false" />
+        <AssociationConnector Association="ip123Model.FK_Schedule_School_Subject" ManuallyRouted="false" />
+        <AssociationConnector Association="ip123Model.FK_Schedule_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="ip123Model.FK_School_Subject_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="ip123Model.FK_School_Subject_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="ip123Model.Family" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
